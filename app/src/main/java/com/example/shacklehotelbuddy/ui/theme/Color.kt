@@ -6,6 +6,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
 
+//We should also have a file for dimensions
+
 val Black = Color(0xFF000000)
 val White = Color(0xFFFFFFFF)
 val Teal = Color(0xFF2CABB1)

@@ -1,9 +1,19 @@
 <resources>
     <string name="app_name">ShackleHotelBuddy</string>
-    <string name="label_check_in">Dates</string>
+    <string name="label_dates">Dates</string>
     <string name="hint_date">DD/MM/YYYY - DD/MM/YYYY</string>
     <string name="label_guests">Guests</string>
-    <string name="label_guests_hint">1</string>
+    <string name="label_guests_hint">guests</string>
     <string name="label_children">Children</string>
-    <string name="label_children_hint">0</string>
+    <string name="label_children_hint">children</string>
+    <string name="search_title">Select guests, date and time</string>
+    <string name="search_button">Search</string>
+    <string name="recent_searches_title">Recent Searches</string>
+    <string name="search_results">Search Results</string>
+    <string name="search__no_results_title">Oops! No properties available</string>
+    <string name="search_no_results_subtitle">Try changing your search criteria</string>
+    <string name="search_no_internet_connection_title">Oops! There was an error.</string>
+    <string name="search_no_internet_connection_subtitle">Check your internet connection and try again</string>
+    <string name="search_generic_error_title">Oops! There was an error.</string>
+    <string name="search_generic_error_subtitle">Please try again.</string>
 </resources>

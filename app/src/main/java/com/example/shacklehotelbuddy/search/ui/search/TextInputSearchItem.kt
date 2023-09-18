@@ -1,4 +1,4 @@
-package com.example.shacklehotelbuddy.search.ui
+package com.example.shacklehotelbuddy.search.ui.search
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -10,8 +10,10 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
+import com.example.shacklehotelbuddy.search.ui.HorizontalDivider
 
 
 @Composable
@@ -43,7 +45,9 @@ fun TextInputSearchItem(
             placeholder = hint,
             value = value,
             onValueChange = onValueChange,
-            keyboardOptions = KeyboardOptions(keyboardType = inputType),
+            keyboardOptions = KeyboardOptions(
+                keyboardType = inputType
+            ),
             keyboardActions = keyboardActions
         )
     }

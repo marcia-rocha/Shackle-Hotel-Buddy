@@ -1,4 +1,4 @@
-package com.example.shacklehotelbuddy.search.ui
+package com.example.shacklehotelbuddy.search.ui.search
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
